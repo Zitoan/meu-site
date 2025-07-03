@@ -1,0 +1,100 @@
+body, h1, h2, p, ul, li 
+{
+    margin: 0;
+    padding: 0;
+} 
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+#main1
+{
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+header 
+{
+    background-color: #d7d8d8;
+    color: rgb(0, 55, 0);
+    padding: 20px;
+}
+
+.logo-bott
+{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo 
+{
+    display: flex;
+    width: 70px;
+    height: auto;
+    align-items: flex-start;
+}
+/*header h1 
+{
+    
+    margin-bottom: 10px;
+    font-size: 80;
+}
+*/
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    
+}
+/*
+ul li a
+{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    transition: background-color 0,3s;
+}*/
+
+nav a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+main 
+{
+    text-align: left;
+    
+}
+
+footer
+{
+    background-color: #d7d8d8;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
